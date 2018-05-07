@@ -1,6 +1,6 @@
 {
   "name": "@dcos/tslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shared tslint config for DCOS projects using typescript",
   "main": "index.js",
   "scripts": {
