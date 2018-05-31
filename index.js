@@ -108,9 +108,7 @@ module.exports = {
     false
   ],
   // Prettier
-  "prettier": [
-    true
-  ],
+  "prettier": true,
   // TS React plugin
   "jsx-wrap-multiline": true,
   "jsx-curly-spacing": "never",
