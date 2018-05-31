@@ -58,62 +58,60 @@ module.exports = {
       {
         "ignore-pattern": "^_"
       }
-    ]
-  },
-  "no-use-before-declare": false,
-  "quotemark": [
-    false
-  ],
-  "semicolon": [
-    true
-  ],
-  "comment-format": [
-    true
-  ],
-  "ter-arrow-body-style": [
-    false
-  ],
-  "ter-arrow-spacing": [
-    false
-  ],
-  "switch-default": false,
-  "ter-max-len": [
-    false
-  ],
-  "label-position": false,
-  "no-construct": false,
-  "no-shadowed-variable": false,
-  "no-var-keyword": false,
-  "object-curly-spacing": [
-    false
-  ],
-  "one-variable-per-declaration": false,
-  "ter-padded-blocks": false,
-  "ter-prefer-arrow-callback": [
-    false
-  ],
-  "prefer-const": [
-    false,
-    {
-      "destructuring": "all"
-    }
-  ],
-  "object-literal-key-quotes": [
-    false
-  ],
-  "space-in-parens": [
-    false
-  ],
-  "member-access": [
-    false
-  ],
-  // Prettier
-  "prettier": [
-    true
-  ],
-  // TS React plugin
-  "jsx-wrap-multiline": true,
-  "jsx-curly-spacing": "never",
-  "jsx-boolean-value": "never",
-  "jsx-equals-spacing": "never"
+    ],
+    "no-use-before-declare": false,
+    "quotemark": [
+      false
+    ],
+    "semicolon": [
+      true
+    ],
+    "comment-format": [
+      true
+    ],
+    "ter-arrow-body-style": [
+      false
+    ],
+    "ter-arrow-spacing": [
+      false
+    ],
+    "switch-default": false,
+    "ter-max-len": [
+      false
+    ],
+    "label-position": false,
+    "no-construct": false,
+    "no-shadowed-variable": false,
+    "no-var-keyword": false,
+    "object-curly-spacing": [
+      false
+    ],
+    "one-variable-per-declaration": false,
+    "ter-padded-blocks": false,
+    "ter-prefer-arrow-callback": [
+      false
+    ],
+    "prefer-const": [
+      false,
+      {
+        "destructuring": "all"
+      }
+    ],
+    "object-literal-key-quotes": [
+      false
+    ],
+    "space-in-parens": [
+      false
+    ],
+    "member-access": [
+      false
+    ],
+    // Prettier
+    "prettier": true,
+    // TS React plugin
+    "jsx-wrap-multiline": true,
+    "jsx-curly-spacing": "never",
+    "jsx-boolean-value": "never",
+    "jsx-equals-spacing": "never"
+  }
 };
