@@ -106,12 +106,17 @@ module.exports = {
     "member-access": [
       false
     ],
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
     // Prettier
     "prettier": true,
     // TS React plugin
     "jsx-wrap-multiline": true,
     "jsx-curly-spacing": "never",
     "jsx-boolean-value": "never",
-    "jsx-equals-spacing": "never"
+    "jsx-equals-spacing": "never",
+    "jsx-no-lambda": true
   }
 };
