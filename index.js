@@ -52,13 +52,6 @@ module.exports = {
       true,
       "ignore-blank-lines"
     ],
-    "no-unused-variable": [
-      true,
-      "check-parameters",
-      {
-        "ignore-pattern": "^_"
-      }
-    ],
     "no-use-before-declare": false,
     "quotemark": [
       false
